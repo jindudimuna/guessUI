@@ -1,0 +1,80 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 10em;
+}
+
+.start {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+}
+
+.end {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  margin-left: 50vw;
+}
+.options {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3em;
+}
+
+.game-links {
+  color: black;
+  text-decoration: none;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 2em;
+  padding-left: 5%;
+}
+
+.box {
+  width: 12vw;
+  height: 4vw;
+  font-size: 3em;
+  font-family: 'DotGothic16', sans-serif;
+  padding: auto;
+  margin-bottom: 2%;
+}
+
+.box-answer {
+  width: 12vw;
+  height: 4vw;
+  font-size: 3em;
+  font-family: 'DotGothic16', sans-serif;
+  padding: auto;
+}
+
+.game-sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-b {
+  width: 12vw;
+  height: 4vw;
+  font-size: 3em;
+  font-family: 'DotGothic16', sans-serif;
+  padding: auto;
+  margin-bottom: 2%;
+  opacity: 0;
+}
+
+.submit-b {
+  opacity: 0;
+}
